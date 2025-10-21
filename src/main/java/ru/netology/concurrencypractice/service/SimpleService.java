@@ -1,8 +1,8 @@
-package ru.netology.concurrencypractice;
+package ru.netology.concurrencypractice.service;
 
 import org.springframework.stereotype.Service;
-import ru.netology.concurrencypractice.Threads.CounterWorker;
-import ru.netology.concurrencypractice.Threads.LoggerTask;
+import ru.netology.concurrencypractice.flows.CounterWorker;
+import ru.netology.concurrencypractice.flows.LoggerTask;
 
 import java.util.Comparator;
 import java.util.List;

@@ -1,7 +1,7 @@
 package ru.netology.concurrencypractice.controller;
 
 import org.springframework.web.bind.annotation.*;
-import ru.netology.concurrencypractice.SimpleService;
+import ru.netology.concurrencypractice.service.SimpleService;
 
 import java.util.List;
 
